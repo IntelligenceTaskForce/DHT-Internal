@@ -1,7 +1,5 @@
 @echo off
-set list=win-x64 linux-x64 osx-x64
-
-rmdir /S /Q bin
+set list=win-x64
 
 (for %%a in (%list%) do (
   dotnet publish Desktop -c Release -r %%a -o ./bin/%%a --self-contained true

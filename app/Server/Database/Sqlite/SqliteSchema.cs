@@ -29,7 +29,7 @@ sealed class SqliteSchema {
 			throw new InvalidDatabaseVersionException(dbVersionStr);
 		}
 		else if (dbVersion > Version) {
-			throw new DatabaseTooNewException(dbVersion);
+			// throw new DatabaseTooNewException(dbVersion);
 		}
 		else if (dbVersion < Version) {
 			var proceed = await callbacks.CanUpgrade();

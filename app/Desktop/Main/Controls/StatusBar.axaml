@@ -12,7 +12,7 @@
     </Design.DataContext>
 
     <UserControl.Background>
-        <SolidColorBrush>#3C4F79</SolidColorBrush>
+        <SolidColorBrush>#111111</SolidColorBrush>
     </UserControl.Background>
 
     <UserControl.Styles>
@@ -31,7 +31,7 @@
         </Style>
         <Style Selector="StackPanel > Rectangle">
             <Setter Property="Margin" Value="14 1" />
-            <Setter Property="Stroke" Value="#697899" />
+            <Setter Property="Stroke" Value="#555555" />
             <Setter Property="StrokeThickness" Value="2" />
             <Setter Property="VerticalAlignment" Value="Stretch" />
         </Style>

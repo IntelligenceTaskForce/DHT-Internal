@@ -77,22 +77,22 @@
         <TransformOperations x:Key="HorizontalSmallScrollThumbScaleTransform">scaleY(0.5) translateY(-3px)</TransformOperations>
         <SolidColorBrush x:Key="ScrollBarPanningThumbBackground" Color="#8F8F8F" />
 
-        <SolidColorBrush x:Key="ButtonBorderBrush" Color="#3C5F95" />
-        <SolidColorBrush x:Key="ButtonBorderBrushPointerOver" Color="#0E2B59" />
-        <SolidColorBrush x:Key="ButtonBorderBrushPressed" Color="#061742" />
+        <SolidColorBrush x:Key="ButtonBorderBrush" Color="#222222" />
+        <SolidColorBrush x:Key="ButtonBorderBrushPointerOver" Color="#333333" />
+        <SolidColorBrush x:Key="ButtonBorderBrushPressed" Color="#111111" />
         <SolidColorBrush x:Key="ButtonBorderBrushDisabled" Color="#9B9B9B" />
         <SolidColorBrush x:Key="ButtonBackground" Color="#FFFFFF" />
         <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#F6F9FD" />
         <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="#EDF3FD" />
         <SolidColorBrush x:Key="ButtonBackgroundDisabled" Color="#FFFFFF" />
-        <SolidColorBrush x:Key="ButtonForeground" Color="#112961" />
-        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="#050E41" />
-        <SolidColorBrush x:Key="ButtonForegroundPressed" Color="#010320" />
+        <SolidColorBrush x:Key="ButtonForeground" Color="#222222" />
+        <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="#232323" />
+        <SolidColorBrush x:Key="ButtonForegroundPressed" Color="#151515" />
         <SolidColorBrush x:Key="ButtonForegroundDisabled" Color="#8C8C8C" />
 
-        <SolidColorBrush x:Key="TextControlBorderBrush" Color="#515151" />
+        <SolidColorBrush x:Key="TextControlBorderBrush" Color="#151515" />
         <SolidColorBrush x:Key="TextControlBorderBrushPointerOver" Color="#000000" />
-        <SolidColorBrush x:Key="TextControlBorderBrushFocused" Color="#3C5F95" />
+        <SolidColorBrush x:Key="TextControlBorderBrushFocused" Color="#111111" />
         <SolidColorBrush x:Key="TextControlBorderBrushDisabled" Color="#9B9B9B" />
         <SolidColorBrush x:Key="TextControlBackground" Color="#FFFFFF" />
         <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="#FFFFFF" />
@@ -110,21 +110,21 @@
         
         <Thickness x:Key="ExpanderHeaderPadding">15,0</Thickness>
         <Thickness x:Key="ExpanderContentPadding">12</Thickness>
-        <SolidColorBrush x:Key="ExpanderHeaderBorderBrush" Color="#697DAB" />
-        <SolidColorBrush x:Key="ExpanderHeaderBorderBrushPointerOver" Color="#697DAB" />
-        <SolidColorBrush x:Key="ExpanderHeaderBorderBrushPressed" Color="#697DAB" />
-        <SolidColorBrush x:Key="ExpanderHeaderBorderBrushDisabled" Color="#697DAB" />
-        <SolidColorBrush x:Key="ExpanderHeaderBackground" Color="#697DAB" />
-        <SolidColorBrush x:Key="ExpanderHeaderBackgroundPointerOver" Color="#536794" />
-        <SolidColorBrush x:Key="ExpanderHeaderBackgroundPressed" Color="#47587F" />
-        <SolidColorBrush x:Key="ExpanderHeaderBackgroundDisabled" Color="#697DAB" />
+        <SolidColorBrush x:Key="ExpanderHeaderBorderBrush" Color="#222222" />
+        <SolidColorBrush x:Key="ExpanderHeaderBorderBrushPointerOver" Color="#222222" />
+        <SolidColorBrush x:Key="ExpanderHeaderBorderBrushPressed" Color="#222222" />
+        <SolidColorBrush x:Key="ExpanderHeaderBorderBrushDisabled" Color="#222222" />
+        <SolidColorBrush x:Key="ExpanderHeaderBackground" Color="#222222" />
+        <SolidColorBrush x:Key="ExpanderHeaderBackgroundPointerOver" Color="#222222" />
+        <SolidColorBrush x:Key="ExpanderHeaderBackgroundPressed" Color="#222222" />
+        <SolidColorBrush x:Key="ExpanderHeaderBackgroundDisabled" Color="#222222" />
         <SolidColorBrush x:Key="ExpanderHeaderForeground" Color="#FFFFFF" />
         <SolidColorBrush x:Key="ExpanderHeaderForegroundPointerOver" Color="#FFFFFF" />
         <SolidColorBrush x:Key="ExpanderHeaderForegroundPressed" Color="#FFFFFF" />
         <SolidColorBrush x:Key="ExpanderHeaderForegroundDisabled" Color="#FFFFFF" />
         <SolidColorBrush x:Key="ExpanderChevronBackground" Color="Transparent" />
-        <SolidColorBrush x:Key="ExpanderChevronBackgroundPointerOver" Color="#536794" />
-        <SolidColorBrush x:Key="ExpanderChevronBackgroundPressed" Color="#47587F" />
+        <SolidColorBrush x:Key="ExpanderChevronBackgroundPointerOver" Color="#222222" />
+        <SolidColorBrush x:Key="ExpanderChevronBackgroundPressed" Color="#222222" />
         <SolidColorBrush x:Key="ExpanderChevronBackgroundDisabled" Color="Transparent" />
         <SolidColorBrush x:Key="ExpanderChevronForeground" Color="#FFFFFF" />
         <SolidColorBrush x:Key="ExpanderChevronForegroundPointerOver" Color="#FFFFFF" />

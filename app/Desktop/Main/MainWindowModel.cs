@@ -14,7 +14,7 @@ using DHT.Utils.Logging;
 namespace DHT.Desktop.Main;
 
 sealed partial class MainWindowModel : ObservableObject, IAsyncDisposable {
-	private const string DefaultTitle = "Discord History Tracker";
+	private const string DefaultTitle = "DHT Internal";
 
 	private static readonly Log Log = Log.ForType<MainWindowModel>();
 

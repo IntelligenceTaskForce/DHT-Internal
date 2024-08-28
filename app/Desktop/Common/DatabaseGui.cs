@@ -17,10 +17,10 @@ namespace DHT.Desktop.Common;
 static class DatabaseGui {
 	private static readonly Log Log = Log.ForType(typeof(DatabaseGui));
 
-	private const string DatabaseFileInitialName = "archive.dht";
+	private const string DatabaseFileInitialName = "InternalDHTArchive-000.dht";
 
 	private static readonly IReadOnlyList<FilePickerFileType> DatabaseFileDialogFilter = [
-		FileDialogs.CreateFilter("Discord History Tracker Database", ["dht"])
+		FileDialogs.CreateFilter("DHT Internal Database", ["dht"])
 	];
 
 	public static async Task<string[]> NewOpenDatabaseFilesDialog(Window window, string? suggestedDirectory) {

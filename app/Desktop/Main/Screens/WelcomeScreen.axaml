@@ -12,7 +12,7 @@
     </Design.DataContext>
 
     <UserControl.Background>
-        <SolidColorBrush>#546A9F</SolidColorBrush>
+        <SolidColorBrush>#222222</SolidColorBrush>
     </UserControl.Background>
 
     <UserControl.Styles>
@@ -29,12 +29,14 @@
 
     <Panel Name="RootPanel">
         <StackPanel Margin="42">
-            <TextBlock Text="{Binding Version, StringFormat=Discord History Tracker v{0}}" FontSize="25" Margin="0 0 0 30" HorizontalAlignment="Center" />
+            <TextBlock Text="DHT Internal v0" FontSize="25" Margin="0 0 0 30" HorizontalAlignment="Center" />
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button Command="{Binding OpenOrCreateDatabase}" IsEnabled="{Binding IsOpenOrCreateDatabaseButtonEnabled}">Open or Create Database</Button>
-                <Button Command="{Binding ShowAboutDialog}">About</Button>
-                <Button Command="{Binding Exit}">Exit</Button>
+                <Button Command="{Binding ImportLegacyArchive}">Open Browser-Only Archive</Button>
+                <Button Command="{Binding BindShellExtension}">Bind Extension</Button>
+                <!-- <Button Command="{Binding ShowAboutDialog}">About</Button> -->
+                <!-- <Button Command="{Binding Exit}">Exit</Button> -->
             </StackPanel>
         </StackPanel>
     </Panel>
